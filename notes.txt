@@ -4,3 +4,8 @@ App focado na estrutura MVVM
 https://docs.expo.dev/get-started/create-a-project/
 npx create-expo-app@latest --template blank-typescript delivery-app
 
+2- Instalando Expo Router
+https://docs.expo.dev/router/installation/
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+alterar package.json -> "main": "expo-router/entry",
+criar arquivos src/app/(index.tsx e _layout.tsx)
