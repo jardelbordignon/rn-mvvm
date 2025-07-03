@@ -9,6 +9,6 @@ export const api = ky.create({
       },
     ],
   },
-  prefixUrl: 'https://fakestoreapi.com',
+  prefixUrl: process.env.API_URL || 'https://fakestoreapi.com',
   // https://fakestoreapi.com/docs
 })

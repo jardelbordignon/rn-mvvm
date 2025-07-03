@@ -1,10 +1,15 @@
-import "../../global.css"
+import { StatusBar } from "expo-status-bar";
 import { Stack } from "expo-router";
+import { Providers } from "../providers";
+import "../../global.css"
 
 export default function RootLayout() {
   return (
-    <Stack screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="index" />
-    </Stack>
+    <Providers>
+      <Stack screenOptions={{ headerShown: false }}>
+        <StatusBar style="auto" />
+        <Stack.Screen name="index" />
+      </Stack>
+    </Providers>
   );
 }
