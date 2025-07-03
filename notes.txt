@@ -9,3 +9,19 @@ https://docs.expo.dev/router/installation/
 npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
 alterar package.json -> "main": "expo-router/entry",
 criar arquivos src/app/(index.tsx e _layout.tsx)
+
+3 Instalando Nativewind
+https://www.nativewind.dev/docs/getting-started/installation
+npx expo install nativewind react-native-reanimated@~3.17.4 react-native-safe-area-context@5.4.0
+npx expo install --dev tailwindcss@^3.4.17 prettier-plugin-tailwindcss@^0.5.11
+npx tailwindcss init
+
+ajustar tailwind.config.js
+  content: ["./src/**/*.tsx"],
+  presets: [require("nativewind/preset")],
+
+o restante como segue a doc
+criar global.css, babel.config.js e metro.config.js
+ao rodar vai gerar o nativewind-env.d.ts
+
+agora só usar className
