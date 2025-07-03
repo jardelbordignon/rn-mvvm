@@ -1,0 +1,6 @@
+App focado na estrutura MVVM
+
+1 - Criando o app Expo
+https://docs.expo.dev/get-started/create-a-project/
+npx create-expo-app@latest --template blank-typescript delivery-app
+
