@@ -2,8 +2,10 @@
 
 Este projeto é um aplicativo com foco na arquitetura MVVM no React Native, baseado no conteúdo dessa live https://www.youtube.com/watch?v=XfAJUW5z4ws
 
-<img src="https://raw.githubusercontent.com/jardelbordignon/rn-mvvm/refs/heads/main/assets/screen-all-products.jpeg" alt="Tela de todos os produtos" width="300"/>
-<img src="https://raw.githubusercontent.com/jardelbordignon/rn-mvvm/refs/heads/main/assets/screen-products-by-category.jpeg" alt="Tela de produtos por categoria" width="300"/>
+<div style="display: flex; gap: 8px; width: 100%; justify-content: center;">
+<img src="https://raw.githubusercontent.com/jardelbordignon/rn-mvvm/refs/heads/main/assets/screen-all-products.jpeg" alt="Tela de todos os produtos" width="250" style="border-radius: 8px" />
+<img src="https://raw.githubusercontent.com/jardelbordignon/rn-mvvm/refs/heads/main/assets/screen-products-by-category.jpeg" alt="Tela de produtos por categoria" width="250" style="border-radius: 8px" />
+</div>
 
 ## Tecnologias Utilizadas
 
